@@ -25,3 +25,7 @@ files.copy(from=r.files, to="data")
 - git mv readme.R code/ will move readme.R file from current directory to code/
 - git mv *.R data/ will move all .R files from current directory to data/
 - touch data/readme.md will create an empty readme.md file in data/
+
+
+# creating temperature lines in ggplot2
+- from the GLB.Ts+sDDT.csv, we will select the Year and months columns for this execise
