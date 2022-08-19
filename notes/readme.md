@@ -29,3 +29,9 @@ files.copy(from=r.files, to="data")
 
 # creating temperature lines in ggplot2
 - from the GLB.Ts+sDDT.csv, we will select the Year and months columns for this execise
+
+# global climate data spirals in ggplot2
+- if you take lines in cartesian coord and put then in coord_polar, you get circles
+- if you take bar charts in cartesian coord and put them in coord_polar, you get pie charts
+- we don't need the thick line for current year, so that line of code will be dropped i.e. scale_size_manual
+- remove this_year == 2022, geom_text code too that was used to annotate the solid line for 2022, and size = this_year from the ggplot section of the code
