@@ -35,3 +35,11 @@ files.copy(from=r.files, to="data")
 - if you take bar charts in cartesian coord and put them in coord_polar, you get pie charts
 - we don't need the thick line for current year, so that line of code will be dropped i.e. scale_size_manual
 - remove this_year == 2022, geom_text code too that was used to annotate the solid line for 2022, and size = this_year from the ggplot section of the code
+
+#Downloading font families from goolge
+- Go to Google ans search "google fonts"
+- then copy text to transfrom and paste in the Type Something Box
+- go to "Categories" and choose the suitable font 
+- scroll down to see which of the styles is best suited for you
+- then click on it to download
+- in my case i downloaded the "Glegoo" font
